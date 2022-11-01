@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title></head>
+
+<body>
+    <script>
+
+var n1, n2;
+var n1,n2,n3,n4,res;
+
+n1 = parseInt(prompt('Informe o primeiro número'));
+n2 = parseInt(prompt('Informe o segundo número'));
+n3 = parseInt(prompt('Informe o terceiro número'));
+n4 = parseInt(prompt('Informe o quarto número'));
+
+
+if (n1 > 0 && n1 < 10 && n2 > 0 && n2 < 10 && n3 > 0 && n3 < 10 && n4 > 0 && n4 < 10  ){
+    res = (n1 + n2 + n3 + n4) / 4;
+
+ if (res > 5) {
+        document.write('Você passou no teste com a média: ' + res); 
+    }   
+}
+
+else {
+    document.write('Tente novamente!');
+}
+        </script>
+
+<style>
+
+body{
+
+    font-size:30px ;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#000000;
+text-align: center;
+padding: 50px;
+margin-left: 80px;
+margin-right: 80px;
+margin-top: 80px;
+margin-bottom: 50px;
+background-color: rgb(159, 49, 117);
+font-weight: bold;
+
+}
+
+</style>
+    </body>
+</html>

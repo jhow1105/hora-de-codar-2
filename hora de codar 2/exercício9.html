@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title></head>
+
+<body>
+    <script>
+
+var nome, anoDncs, ano_atual,res;
+
+nome = prompt('Digite seu nome: ');
+anoDncs = parseInt(prompt('Digite o ano de nascimento: '));
+ano_atual = 2022;
+
+res = ano_atual - anoDncs;
+
+console.log(res);
+
+if (res >= 16 && res < 70) {
+    document.write(nome + ' Você possui o direito de votar esse ano, idade aproximada: ' + res);
+}
+else if (res < 16 && res > 0) {
+    document.write(nome + ' Você não possui direito de votar, idade aproximada: ' + res);
+}
+else if (res >= 70) {
+    document.write(nome + ' Você possui direito para votar, porém não é obrigatorio, idade aproximada : ' + res);
+}
+        </script>
+
+<style>
+
+body{
+
+    font-size:30px ;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#000000;
+text-align: center;
+padding: 50px;
+margin-left: 80px;
+margin-right: 80px;
+margin-top: 80px;
+margin-bottom: 50px;
+background-color: rgb(159, 49, 117);
+font-weight: bold;
+
+}
+
+</style>
+    </body>
+</html>
